@@ -1,11 +1,12 @@
 package com.example.cseprice
 
+import com.example.cseprice.data.Doctor
+import com.example.cseprice.data.Paciente
+
 import android.os.Bundle
 import android.util.Log
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 
 class MainView : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -14,10 +15,10 @@ class MainView : AppCompatActivity() {
         setContentView(R.layout.activity_main_view)
 
         // inicializacion de base de datos
-        var paciente:Paciente = Paciente("jjj77","hg#gR","Jose", "Ruiz", "112222",
+        var paciente: Paciente = Paciente("jjj77","hg#gR","Jose", "Ruiz", "112222",
                                     "jose@gmail.com", "5455555555",
                                 "Junin 123 2", 111)
-        var doctor:Doctor = Doctor("mmstr2","fref","Marta", "Castro", "112222",
+        var doctor: Doctor = Doctor("mmstr2","fref","Marta", "Castro", "112222",
             "jose@gmail.com", "5455555555",
             "Junin 123 2", 33, "EF567")
 

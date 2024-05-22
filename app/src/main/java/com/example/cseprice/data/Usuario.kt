@@ -1,4 +1,4 @@
-package com.example.cseprice
+package com.example.cseprice.data
 
 open class Usuario {
     var username:String = ""

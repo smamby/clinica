@@ -1,4 +1,4 @@
-package com.example.cseprice
+package com.example.cseprice.data
 
 class Doctor (
     username: String,

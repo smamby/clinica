@@ -12,7 +12,7 @@ class Paciente (
     email: String,
     telefono: String,
     domicilio: String,
-    val nroPac:Int
+    var nroPac:Int
 ) : Usuario(username, clave, nombre, apellido, dni, email, telefono, domicilio) {
 
 

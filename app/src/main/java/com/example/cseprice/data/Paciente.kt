@@ -1,5 +1,7 @@
 package com.example.cseprice.data
 
+import android.provider.ContactsContract.CommonDataKinds.Email
+
 
 class Paciente (
     username: String,
@@ -10,7 +12,22 @@ class Paciente (
     email: String,
     telefono: String,
     domicilio: String,
-    nroPac:Int
+    val nroPac:Int
 ) : Usuario(username, clave, nombre, apellido, dni, email, telefono, domicilio) {
-    var nroPac: Int = nroPac
+
+
+    constructor(): this(
+        username="",
+        clave="",
+        nombre="",
+        apellido="",
+        dni="",
+        email="",
+        telefono="",
+        domicilio="",
+        nroPac=0
+    )
+
+
+
 }

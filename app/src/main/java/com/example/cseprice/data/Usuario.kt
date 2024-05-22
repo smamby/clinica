@@ -10,6 +10,7 @@ open class Usuario {
     var telefono:String = ""
     var domicilio:String = ""
 
+    constructor(){}
     constructor(
         username:String,
         clave:String,
